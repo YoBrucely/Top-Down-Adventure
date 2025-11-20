@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<animator>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
